@@ -129,4 +129,5 @@ void i2c_init()
     SSPCON1bits.SSPM3 = 1;
     SSPCON1bits.SSPEN = 1;
     SSPADD = 9;
+    wp_io = output;
 }
